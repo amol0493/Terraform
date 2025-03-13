@@ -6,3 +6,6 @@ To Do-
        cd .ssh/
        
        ls
+
+keys generated after ssh-keygen command--> id_ed25519 
+id_ed25519.pub
