@@ -5,14 +5,23 @@ tree structure: -
 
 
 ├── dev.tfvars
+
 ├── main.tf
+
 ├── modules
-│   ├── ec2_instance
+
+│├── ec2_instance
+
 │   │   └── main.tf
+
 │   └── vpc
+
 │       └── main.tf
+
 ├── prod.tfvars
+
 ├── stage.tfvars
+
 └── terraform.tfstate.d
     ├── dev
     │   ├── terraform.tfstate
