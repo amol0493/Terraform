@@ -25,10 +25,13 @@ tree structure: -
 └── terraform.tfstate.d
     ├── dev
     │   ├── terraform.tfstate
+    
     │   └── terraform.tfstate.backup
     ├── prod
     │   ├── terraform.tfstate
+    
     │   └── terraform.tfstate.backup
+    
     └── stage
 
 
